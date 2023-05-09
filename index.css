@@ -1,0 +1,377 @@
+
+/* Variables */
+:root {
+    --text: rgb(255, 247, 244);
+    /*#FFEDE9*/
+    --pinkText: rgb(244,154,194);
+    --highlightText: #7DEEF5;
+    --darkerBackground: rgb(39,39,39); 
+    /*#2E2E2E;*/
+    --lighterBackground: #043E60;
+}
+
+.background {
+    background-color: var(--darkerBackground);
+}
+
+.navbar-brand {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    color: var(--text);
+}
+
+H1, H2, H3, H4, H5, H6, a {
+    font-family: 'DM Mono', monospace;    
+}
+
+a {
+   font-size: 0.95rem!important;
+}
+
+p {
+    font-family: 'DM Sans', sans-serif;    
+    letter-spacing: 0.01rem;
+}
+
+.list {
+    list-style-type: none;  
+}
+
+.sub-title {
+    letter-spacing: 0.05rem;
+}
+
+/*Buttons*/
+
+.btn {
+    --bs-btn-padding-x: 1rem;
+    --bs-btn-padding-y: 1rem;
+    --bs-btn-font-family: 'DM Sans', sans-serif;
+/*@include rfs($btn-font-size, --#{$prefix}btn-font-size);*/
+/*--#{$prefix}btn-font-weight: #{$btn-font-weight};
+--#{$prefix}btn-line-height: #{$btn-line-height};*/
+--bs-btn-color: var(--highlightText);
+--bs-btn-bg: transparent;
+--bs-btn-border-width: 0.1rem;
+--bs-btn-border-color: var(--highlightText);
+--bs-btn-border-radius: 0;
+--bs-btn-hover-border-color: transparent;
+/*--#{$prefix}btn-box-shadow: #{$btn-box-shadow};
+--#{$prefix}btn-disabled-opacity: #{$btn-disabled-opacity};
+--#{$prefix}btn-focus-box-shadow: 0 0 0 #{$btn-focus-width} rgba(var(--#{$prefix}btn-focus-shadow-rgb), .5);*/
+
+}
+
+
+
+
+
+/*Navbar*/
+
+.navbar {
+     
+     margin: auto;
+
+
+    --bs-navbar-color: var(--text);    
+    --bs-navbar-hover-color: var(--highlightText);
+    --bs-navbar-disabled-color: #{$navbar-dark-disabled-color};
+    --bs-navbar-active-color: var(--highlightText);
+    --bs-navbar-brand-color: var(--text);
+    --bs-navbar-brand-hover-color: var(--highlightText);
+    --bs-navbar-toggler-border-color: var(--pinkText);
+    /*--bs-navbar-toggler-icon-bg: var(--text);*/
+    --bs-border-color: var(--pinkText);
+}
+
+.navbar .container-fluid {
+    width: 87% !important;
+}
+
+.navbar {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28254, 238, 233, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")!important;
+}
+
+
+
+.navbar-toggler {
+    color: var(--text)!important;
+    /*background-color: var(--text)!important;*/
+}
+
+
+/*Intro text*/
+
+#main-title h1 {
+    font-size: 6.5rem;
+    color: var(--pinkText);
+}
+
+
+/*About me*/
+
+#list-of-skills {
+    border-left: solid 0.03rem;
+    margin-left: 0.55rem;
+}
+
+    
+
+#list-of-skills h3 {
+    padding-left: 2rem;
+    
+}
+
+
+
+
+/*imported code from landing page offcut 1*/
+
+
+#middle-photo .carousel-item  {
+    transform: rotate(-90deg) !important;
+    transform-origin: left top;
+    height: 10rem;
+    width: 15rem;
+    overflow: hidden;      
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+#middle-photo, #right-photo, #left-photo {
+    height: 15rem;
+    width: 10rem;
+}
+
+/*make every container inherit the dimensions of its parent*/
+
+#left-photo .carousel-fade, .carousel-inner, #mobile-container {
+    width: inherit;
+    height: inherit;
+}
+
+#left-photo img {
+    width: 100%;
+    height: auto;
+}
+
+#left-photo .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#left-photo .carousel-inner, #right-photo .carousel-inner {
+    background: white;
+}
+
+#middle-photo .carousel-inner, #mobile-container {
+    width: inherit;
+    height: inherit;
+}
+
+/*little experiment going on right here, may need to restore middle photo carousel fade to the above after*/
+
+#middle-photo, #left-photo, #right-photo {
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background: black;
+}
+    
+#middle-photo .carousel-fade, #left-photo .carousel-fade {
+    width: 98%;
+    height: 94%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+#right-photo #mobile-container {
+    width: 97%;
+    height: 91%;
+}
+
+#right-photo {
+    padding: 4% 2% 0%;
+}
+
+
+#right-photo .carousel-fade {
+    height: 100%;
+    width: 100%;
+}
+
+#right-photo .carousel-inner, #mobile-container {
+    width: inherit;
+    height: inherit;
+}
+
+.inner-container {
+    height: 25%;
+    width: 90%;
+}
+
+#right-photo img {
+    width: 100%;
+    height: auto;
+}
+
+#mobile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    
+}
+
+.inner-container {
+    /*width: 100%;
+    height: 28vh;
+    height: 33.3vh;*/
+    
+    outline: black solid 3px;
+}
+
+
+/*make the carousel item fill the carousel-item container */
+
+#middle-photo .carousel-item img {
+    width: auto;
+    height: 100%;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+/*
+img {
+    height: 99%;
+    margin: 0;
+    padding: 0;
+}
+*/
+
+
+/*imported code from landing page offcut 1 ENDS*/
+
+/*imported code from landing page offcut 2*/
+
+
+
+
+/*make every container inherit the dimensions of its parent
+
+.carousel-fade, .carousel-inner, .carousel-item, #mobile-container {
+    width: inherit;
+    height: inherit;
+}
+*/
+/*make the carousel item fill the carousel-item container 
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    height: 99%;
+    margin: 0;
+    padding: 0;
+}*/
+
+/*hide the trio of stacked carousels when not viewing on mobiles
+
+#mobile-container {
+    display: none;
+}
+
+*/
+
+
+
+
+
+/*previously 390
+
+@media screen and (max-device-width: 500px) and (orientation: portrait) {
+    .carousel-item img {
+        height: auto !important;
+        width: 100% !important;
+    }
+
+}
+
+@media screen and (min-width: 571px) and (max-width: 856px) and (orientation: landscape) {
+    .carousel-item img {
+        height: 100% !important;
+        width: auto !important;
+    }
+}
+*/
+@media screen  and (min-width: 767px)  {
+    /*
+    #toggler, #logo-image {
+        padding: 1.5rem;
+        }
+        #toggler {
+        margin-right: 4rem;
+        }
+        
+        .navbar-toggler-icon {
+        width: 2.25em;
+        height: 2.25em;
+        }
+      */  
+}
+
+/*imported code from landing page offcut 2 ENDS*/
+
+/*Media queries*/
+
+@media screen and (max-width: 768px) {
+    #trio-of-raven-landing-pages {
+        height: 150vh !important;
+    }
+}
+
+@media screen  and (max-device-width: 767px) and (orientation: portrait) {    
+
+    #desktop-container {
+        display: none;
+    }
+
+    .navbar {
+        position: relative;
+        height: 20vh;
+    }
+       
+}
+
+@media screen and (min-width: 992px) {
+    #main-title {
+        width: 70% !important;
+        
+        display: flex;
+        margin: auto !important;
+        margin-top: 9% !important;
+    }
+
+    #main-title-inner {
+        width: 80% !important;
+
+    }
+}
