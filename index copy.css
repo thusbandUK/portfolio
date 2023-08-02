@@ -1,4 +1,5 @@
-
+/*THIS COPY WAS MADE AT THE POINT THAT I REALISED I NEEDED TO MAKE THE LARGE SCREEN PRESENTATION THE MEDIA QUERY RATHER THAN
+EVERYTHING ELSE SMALLER (TABLET AND MOBILE)*/
 
 
 
@@ -53,12 +54,51 @@ p {
     letter-spacing: 0.05rem;
 }
 
-/*text-boxes in main projects all screen sizes*/
+/*Text boxes in main projects*/
 
 .project-container {
-    margin-top: 30%;
+    margin-bottom: 30%;
+    /*height: 100vh;*/
+    height: fit-content;
     
 }
+
+.project-container-inner {
+    width: 85%;
+    
+}
+
+.project-text-box-right {
+    background-color: #034C77;
+    top: 10%;
+    /*left: 70%;*/
+    width: 400px;
+    /*experiment*/
+    /*previously top: 300% and margin-top -100vw*/
+    top: 320%;
+    margin-top: -100vw;
+    right: 5%;
+    height: fit-content;
+   /* max-width: 100%;
+    width: calc(100vh/3);
+    
+    --widthA: 100px;
+    --widthB: calc(var(--widthA) / 2);
+    --widthC: calc(var(--widthB) / 2);
+    width: var(--widthC);*/
+}
+
+
+
+.project-image {
+    box-shadow: -1em 1em 0.3em rgba(0,0,0, 0.6);
+    /*experiment*/
+    height: 70vh;
+    max-width: 100%;
+    /*experiment ends*/
+}
+
+
 
 .project-container h3 {
     font-family: 'DM Sans', sans-serif !important;
@@ -75,19 +115,6 @@ p {
 
 .project-contact-button {
     color: #7DEEF5
-}
-
-/*RETURN AND DELETE THE -RIGHT ONE WHEN READY*/
-
-.project-text-box {
-    background-color: #034C77;
-
-}
-
-.project-text-box-right {
-    
-    background-color: #034C77;
-    
 }
 
 /*Buttons*/
@@ -452,71 +479,24 @@ img {
 }
 
 @media screen and (min-width: 992px) {
-    #main-title {       
-        display: flex;        
+    #main-title {
+        /*width: 70% !important;*/
+        
+        display: flex;
+        /*margin: auto !important;*/
+        
         margin-top: 9% !important;
     }
 
     #main-title-inner {
-        margin-left: 13% !important;        
+        margin-left: 13% !important;
+        /*width: 80% !important;*/
 
     }
 
     #skills-container {
         margin-left: 20%!important;
     }
-
-    /*project boxes import*/
-    .project-container {
-        margin-bottom: 30%;        
-        height: fit-content;        
-    }
-    
-    .project-container-inner {
-        width: 85%;        
-    }
-    
-    /*RETURN AND DELETE -RIGHT ONE WHEN READY*/
-
-    .project-text-box {
-        position: absolute;        
-        top: 10%;        
-        width: 400px;        
-        top: 320%;
-        margin: 0rem !important;
-        margin-top: -100vw !important;
-        
-        height: fit-content;  
-    }
-
-    .right {
-        right: 5%;
-    }
-
-    .project-image-left {
-        margin-right: 5% !important;
-    }
-
-    .project-text-box-right {
-        position: absolute;        
-        top: 10%;        
-        width: 400px;        
-        top: 320%;
-        margin: 0rem !important;
-        margin-top: -100vw !important;
-        right: 5%;
-        height: fit-content;       
-    }
-    
-    
-    
-    .project-image {
-        box-shadow: -1em 1em 0.3em rgba(0,0,0, 0.6);        
-        height: 70vh;
-        max-width: 100%;        
-    }
-
-
 }
 
 /*Collapse experiment*/
@@ -535,11 +515,19 @@ img {
     flex-direction: column;
 
 }
-
-/*RETURN AND DELETE -RIGHT WHEN READY*/
-
-.project-image-container, .project-text-box, .project-text-box-right {
-    margin: 2% 5%;
+/*    
+background-color: #034C77;
+    width: 400px;    
+    top: 320%;
+    margin-top: -100vw;
+    right: 5%;
+    height: fit-content;
+    */
+.project-text-box-right {
+    position: relative !important;
+    width: 100% !important;
+    margin: 5% auto;
+    right: 0% !important;
 }
 
 /*Making the light boxes stack under the corresponding project text box for when they all stack on top of each other*/
@@ -570,56 +558,21 @@ img {
 }
 
 /*Project boxes*/
+@media screen and (min-width: 600px) and (max-width: 1174px) {
+/*BEING REPLACED FROM .project-text-box-right
 
-@media screen and (min-width: 992px) and (max-width: 1174px) {
+    background-color: #034C77;
+    width: 400px;    
+    top: 320%;
+    margin-top: -100vw;
+    right: 5%;
+    height: fit-content;
 
-/*RETURN AND DELETE -RIGHT ONE*/
-
-.project-text-box {
-    position: absolute;
-    top: 60%;
-    width: 80%;
-    margin-top: 5% !important;
-}
+*/
 
 .project-text-box-right {
-    position: absolute;
     top: 60%;
     width: 80%;
-    margin-top: 5% !important;
+    margin-top: 5%;
 }
-
-.project-container {
-    margin-bottom: 30% !important;
-}
-
-}
-
-@media screen and (min-width: 1440px) {
-    .project-container {
-        margin-bottom: 10% !important;
-        height: fit-content;
-        
-    }
-
-}
-
-@media screen and (min-width: 1174px) and (max-width: 1440px) {
-    .project-container {
-        margin-bottom: 20% !important;
-        /*height: 100vh;*/
-        height: fit-content;
-        
-    }
-
-}
-
-@media screen and (min-width: 1174px) and (max-width: 1250px) {
-    .project-text-box {
-        position: absolute;
-        top: 45%;
-        width: 80%;
-        margin-top: 5% !important;
-    }
-
 }
