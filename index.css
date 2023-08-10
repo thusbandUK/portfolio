@@ -12,6 +12,7 @@
     /*#2E2E2E;*/
     --lighterBackground: rgb(18,61,87);
      /*#043E60;*/
+     --darkBlue: #034C77;
 }
 
 .background {
@@ -26,7 +27,7 @@ body {
     color: var(--text);
 }
 
-H1, H2, H3, H4, H5, H6, a {
+H1, H2, H3, H4, H5, H6, a, .card .btn {
     font-family: 'DM Mono', monospace;    
 }
 
@@ -176,13 +177,40 @@ p {
 
 /*lightbox*/
 
+.trio-smaller-project-intros {
+  /*  margin: 10%;*/
+}
+
+.minor-project-description-container {
+    margin: 10% 10% 0%;
+}
+
+.card {
+    /*card border styling*/
+    --bs-card-border-width: 0.15rem;
+    --bs-card-border-color: var(--darkBlue);
+    /*--bs-card-border-radius: #{$card-border-radius};*/
+    --bs-card-bg: var(--darkerBackground);
+
+}
+
 .card-body {
     --bs-card-bg: var(--darkerBackground);
     --bs-card-color: var(--text);
     --bs-card-spacer-x: 2.4rem;
     --bs-card-spacer-y: 1.6rem;
+
+    
+    /*border at top of text part (beneath thumbnail)*/
+    border-top: solid 0.15rem var(--darkBlue);
+    
+
+    
 }
 
+.card btn {
+    font-family: 'DM-mono';
+}
 .card-body-inner {
     background-color: var(--lighterBackground);
 }

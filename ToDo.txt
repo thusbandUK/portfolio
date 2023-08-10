@@ -1,0 +1,2 @@
+1) sort out sequencing of the collapsers and collapsibles, in tablet size it's
+doing a hybrid of the mobile and desktop versions of the stacking
