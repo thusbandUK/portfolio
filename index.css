@@ -202,10 +202,11 @@ p {
 
     
     /*border at top of text part (beneath thumbnail)*/
-    border-top: solid 0.15rem var(--darkBlue);
-    
+    border-top: solid 0.15rem var(--darkBlue);    
+}
 
-    
+.card-heading {
+    font-family: 'DM Sans', sans-serif;;
 }
 
 .card btn {

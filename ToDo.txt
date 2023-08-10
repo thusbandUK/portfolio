@@ -1,2 +1,4 @@
 1) sort out sequencing of the collapsers and collapsibles, in tablet size it's
 doing a hybrid of the mobile and desktop versions of the stacking
+
+2) You're going to have to automate scrolling up upon pressing any of the collapser buttons
