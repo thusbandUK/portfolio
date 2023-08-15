@@ -1,6 +1,11 @@
-
-
-
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 
 /* Variables */
 :root {
@@ -44,6 +49,11 @@ p {
     letter-spacing: 0.01rem;
 }
 
+/*sizing of crediting text (in trio of smaller project intros)*/
+
+.credit {
+    font-size: 0.75rem;
+}
 
 
 .list {
@@ -203,6 +213,10 @@ p {
     
     /*border at top of text part (beneath thumbnail)*/
     border-top: solid 0.15rem var(--darkBlue);    
+/*
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;*/
 }
 
 .card-heading {
@@ -214,6 +228,11 @@ p {
 }
 .card-body-inner {
     background-color: var(--lighterBackground);
+}
+
+.collapser {
+    display: flex;
+    flex-direction: row;
 }
 
 .btn-close-white {
@@ -545,6 +564,11 @@ img {
         max-width: 100%;        
     }
 
+/*Makes the trio of smaller project intros have nice margins on the left and right on large screens only*/
+    .trio-smaller-project-intros {
+        width: 90%;
+        margin: auto;
+    }
 
 }
 

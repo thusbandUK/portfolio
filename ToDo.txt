@@ -2,3 +2,7 @@
 doing a hybrid of the mobile and desktop versions of the stacking
 
 2) You're going to have to automate scrolling up upon pressing any of the collapser buttons
+
+3) scroll to the top of the just opened collapsible 
+https://stackoverflow.com/questions/35992900/bootstrap-accordion-scroll-to-top-of-active-open-accordion-on-click
+

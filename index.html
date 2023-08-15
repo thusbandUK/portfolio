@@ -590,18 +590,19 @@ COMMENT OUT CODE ENDS HERE
   <div class="container" >-->
 <!--REMOVED FROM CLASS DIR BELOW row-cols-1 row-cols-sm-2 row-cols-md-3 g-3-->
     <div class="row trio-smaller-project-intros">
-      <div class="col-md-4" id="collapser1">
-        <div class="card shadow-sm minor-project-description-container">
+      <div class="col-md-4 collapser" id="collapser1">
+        <div class="card shadow-sm minor-project-description-container m-2 rounded-4">
           <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
           <div>
-            <img class="img-fluid rounded-top-1" src="images/card-thumbnails/alternative stylings.png">
+            <img class="img-fluid rounded-top-4" src="images/card-thumbnails/alternative stylings.png">
           </div>
           
-          <div class="card-body">
-            <h3 class="card-heading">Alternative Stylings</h3>
-            <p class="card-text">Demonstrates three different carousels of images suggested for the landing page of the Raven Frames website.</p>
-            
-            <div class="d-flex justify-content-between align-items-center">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div class="card-body-text-container">
+              <h3 class="card-heading">Alternative Stylings</h3>
+              <p class="card-text">Demonstrates three different carousels of images suggested for the landing page of the Raven Frames website.</p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center mt-1">
               <div class="btn-group w-100">
                 <!--Here's where the drop down buttons are-->
                 <p class="w-100">
@@ -610,7 +611,7 @@ COMMENT OUT CODE ENDS HERE
                     Link with href
                   </a>
                   -->
-                  <button class="btn btn-primary w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                  <button class="btn btn-primary w-100" onClick="scrollUp()" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
                     View demo
                   </button>
                   
@@ -621,18 +622,20 @@ COMMENT OUT CODE ENDS HERE
           </div>
         </div>
       </div>
-      <div class="col-md-4" id="collapser2">
-        <div class="card shadow-sm minor-project-description-container">
+      <div class="col-md-4 collapser" id="collapser2">
+        <div class="card shadow-sm minor-project-description-container m-2  rounded-4">
           <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
           <div>
-            <img class="img-fluid rounded-top-1" src="images/card-thumbnails/scenario wheel.png">
+            <img class="img-fluid rounded-top-4" src="images/card-thumbnails/scenario wheel.png">
           </div>
           
-          <div class="card-body">
-            <h3 class="card-heading">Selection wheel</h3>
-            <p class="card-text">An animated trio of concentric circles which spin in opposite directions to select a random combination of options.</p>
-            
-            <div class="d-flex justify-content-between align-items-center">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div class="card-body-text-container">
+              <h3 class="card-heading">Selection wheel</h3>
+              <p class="card-text">An animated trio of concentric circles which spin in opposite directions to select a random combination of options.</p>
+              <p class="credit">Animation by T Husband &#169; 2023</p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center mt-1">
               <div class="btn-group w-100">
                 <!--Here's where the drop down buttons are-->
                 <p class="w-100">
@@ -641,7 +644,7 @@ COMMENT OUT CODE ENDS HERE
                     Link with href
                   </a>
                   -->
-                  <button class="btn btn-primary w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                  <button class="btn btn-primary w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
                     View demo
                   </button>
                   
@@ -652,17 +655,20 @@ COMMENT OUT CODE ENDS HERE
           </div>
         </div>
       </div>
-      <div class="col-md-4" id="collapser3">
-        <div class="card shadow-sm minor-project-description-container">
+      <div class="col-md-4 collapser" id="collapser3">
+        <div class="card shadow-sm minor-project-description-container m-2 rounded-4">
           <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
           <div>
-            <img class="img-fluid rounded-top-1" src="images/card-thumbnails/horoscope.png">
+            <img class="img-fluid rounded-top-4" src="images/card-thumbnails/horoscope.png">
           </div>
           
-          <div class="card-body">
-            <h3 class="card-heading">Random horoscope generator</h3>
-            <p class="card-text">Uses javascript to animate the appearance of a random humorous horoscope.</p>
-            <div class="d-flex justify-content-between align-items-center">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div class="card-body-text-container">
+              <h3 class="card-heading">Random horoscope generator</h3>
+              <p class="card-text">Uses javascript to animate the appearance of a random humorous horoscope.</p>
+              <p class="credit">Animation by sogogain &#169; 2020</p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center mt-1">
               <div class="btn-group w-100">
                 <!--Here's where the drop down buttons are-->
                 <p class="w-100">
@@ -671,7 +677,7 @@ COMMENT OUT CODE ENDS HERE
                     Link with href
                   </a>
                   -->
-                  <button class="btn btn-primary w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                  <button class="btn btn-primary w-100" onClick="scrollUp()" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
                     View demo
                   </button>
                   
@@ -682,6 +688,7 @@ COMMENT OUT CODE ENDS HERE
           </div>
         </div>
       </div>
+    </div>
       <!--
       <div class="col-md-4"  id="collapser2">
         <div class="card shadow-sm minor-project-description-container">
@@ -734,7 +741,175 @@ COMMENT OUT CODE ENDS HERE
   <div class="card card-body darkerBackground">
     <div class="card-body-inner lighterbackground rounded-3">
       <button type="button" class="btn-close btn-close-white" aria-label="Close"></button>
-      <p>Collapsible 1</p>
+      <!--<p>Collapsible 1</p>--><!--
+      <div class="album py-5 bg-light">
+        <div class="container">
+    
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            </div>
+            </div>
+       
+    </div>-->
+    <div id="trio-of-raven-landing-pages" class="row w-100 d-flex-inline justify-content-around" style="height: 60vh;">
+      <div class="col-md-3 m-2 d-flex align-items-center">
+        <div id="left-photo" class="m-auto" style="background-color: red;">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner d-flex">
+              <div class="carousel-item active position-relative" data-bs-interval="4000" >
+                
+                <img src="./Carousel images/1.jpg" class="d-block" alt="photograph of grey panelled double doors with homewares and plants in foreground and framing workshop in background">
+              </div>
+             
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="./Carousel images/2.jpg" class="d-block" alt="closeup of corner of wooden frame">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="./Carousel images/3.jpg" class="d-block" alt="art print on desk with white frame chevron at corner">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="./Carousel images/4.jpg" class="d-block" alt="photograph of workshop scene with frame chevrons on back wall and grey carpeted bench">
+              </div>
+               
+            </div>
+            
+          </div>
+    
+        </div>
+    
+      </div>
+      <div class="col-md-3 m-2 d-flex align-items-center" style="position: relative;">
+        <div id="middle-photo" class="m-auto" style="background-color: yellow;">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4000" >      
+                <img src="./Carousel images/1.jpg" class="d-block" alt="photograph of grey panelled double doors with homewares and plants in foreground and framing workshop in background">
+              </div>   
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="./Carousel images/2.jpg" class="d-block " alt="closeup of corner of wooden frame">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="./Carousel images/3.jpg" class="d-block " alt="art print on desk with white frame chevron at corner">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="./Carousel images/4.jpg" class="d-block " alt="photograph of workshop scene with frame chevrons on back wall and grey carpeted bench">
+              </div>
+               
+            </div>
+            
+          </div>
+    
+        </div>
+    
+      </div>
+      <div class="col-md-3 m-2 d-flex align-items-center">
+        <div id="right-photo" class="m-auto" style="background-color: red;">
+          <div id="mobile-container">
+            <div class="inner-container">
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active " data-bs-interval="4000" >
+                    <img src="./Carousel images/1.jpg" class="d-block" alt="photograph of grey panelled double doors with homewares and plants in foreground and framing workshop in background">
+                  </div>   
+                  <div class="carousel-item" data-bs-interval="4000">
+                    <img src="./Carousel images/2.jpg" class="d-block" alt="closeup of corner of wooden frame">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="4000">
+                    <img src="./Carousel images/3.jpg" class="d-block " alt="art print on desk with white frame chevron at corner">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="4000">
+                    <img src="./Carousel images/4.jpg" class="d-block" alt="photograph of workshop scene with frame chevrons on back wall and grey carpeted bench">
+                  </div>     
+                </div>  
+              </div>
+            </div>
+            <div class="inner-container">
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active position-relative" data-bs-interval="4000">
+                    <img src="./Carousel images/4.jpg" class="d-block" alt="photograph of workshop scene with frame chevrons on back wall and grey carpeted bench">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="4000" >
+                    <img src="./Carousel images/1.jpg" class="d-block" alt="photograph of grey panelled double doors with homewares and plants in foreground and framing workshop in background">
+                  </div>   
+                  <div class="carousel-item" data-bs-interval="4000">
+                    <img src="./Carousel images/2.jpg" class="d-block" alt="closeup of corner of wooden frame">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="4000">
+                    <img src="./Carousel images/3.jpg" class="d-block" alt="art print on desk with white frame chevron at corner">
+                  </div>             
+                </div>  
+              </div>
+            </div>
+            <div class="inner-container">
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active position-relative" data-bs-interval="4000">
+                    <img src="./Carousel images/3.jpg" class="d-block" alt="art print on desk with white frame chevron at corner">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="4000">
+                    <img src="./Carousel images/4.jpg" class="d-block" alt="photograph of workshop scene with frame chevrons on back wall and grey carpeted bench">
+                  </div>     
+                  <div class="carousel-item" data-bs-interval="4000" >
+                    <img src="./Carousel images/1.jpg" class="d-block" alt="photograph of grey panelled double doors with homewares and plants in foreground and framing workshop in background">
+                  </div>   
+                  <div class="carousel-item" data-bs-interval="4000">
+                    <img src="./Carousel images/2.jpg" class="d-block" alt="closeup of corner of wooden frame">
+                  </div>        
+                </div>  
+              </div>
+            </div>
+          </div>
+    
+        </div>
+    
+      </div>
+    </div>
     </div>
   </div>
 </div>
@@ -796,6 +971,9 @@ COMMENT OUT CODE ENDS HERE
 
 
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+     <script  type = "text/javascript" src="./script.js">
+
+     </script>
      <script >
 /*
 
