@@ -8,3 +8,5 @@ https://stackoverflow.com/questions/35992900/bootstrap-accordion-scroll-to-top-o
 
 4) in tablet mode (stack 2 on the top line, 1 on the bottom), the trio of smaller projects will need to have the sequencing of its
 collapsers and collapsibles modified to go 124536, I think
+
+5) fix navbar so that it reappears when you scroll up

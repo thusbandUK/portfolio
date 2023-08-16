@@ -744,10 +744,15 @@ COMMENT OUT CODE ENDS HERE
     -->
 <!--drop down 1-->
 
-<div class="collapse col-12" id="collapseExample1">
-  <div class="card card-body darkerBackground">
+<div class="collapse collapsible col-12" id="collapseExample1">
+  <div class="card card-body ">
     <div class="card-body-inner lighterbackground rounded-3">
-      <button type="button" class="btn-close btn-close-white" aria-label="Close"></button>
+      <div class="collapsible-heading-button d-flex justify-content-between">
+        <p class="collapsible-heading">Alternative stylings</p>
+        <button type="button" class="btn-close btn-close-white" aria-label="Close"></button>
+      </div>
+      <!--<button type="button" class="btn-close btn-close-white" aria-label="Close"></button>-->
+      <div class="collapsible-white-inner">
       <!--<p>Collapsible 1</p>--><!--
       <div class="album py-5 bg-light">
         <div class="container">
@@ -917,28 +922,50 @@ COMMENT OUT CODE ENDS HERE
     
       </div>
     </div>
+  </div>
     </div>
   </div>
 </div>
 
 <!--drop down 2-->
-
-<div class="collapse col-12" id="collapseExample2">
+<!--
+<div class="collapse collapsible col-12" id="collapseExample2">
   <div class="card card-body darkerBackground">
     <div class="card-body-inner lighterbackground rounded-3">
       <button type="button" class="btn-close btn-close-white" aria-label="Close"></button>
       <p>Collapsible 2</p>
     </div>
   </div>
-</div>
+</div>-->
 
-<!--drop down 3-->
-
-<div class="collapse col-12" id="collapseExample3">
+<div class="collapse collapsible col-12" id="collapseExample2">
   <div class="card card-body darkerBackground">
     <div class="card-body-inner lighterbackground rounded-3">
-      <button type="button" class="btn-close btn-close-white" aria-label="Close"></button>
-      <p>Collapsible 3</p>
+      <div class="collapsible-heading-button d-flex justify-content-between">
+        <p class="collapsible-heading">Collapsible 2</p>
+        <button type="button" class="btn-close btn-close-white" aria-label="Close"></button>
+      </div>
+      <div class="collapsible-white-inner">
+        
+        <!--add content here-->
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--drop down 3-->
+
+<div class="collapse collapsible col-12" id="collapseExample3">
+  <div class="card card-body darkerBackground">
+    <div class="card-body-inner lighterbackground rounded-3">
+      <div class="collapsible-heading-button d-flex justify-content-between">
+        <p class="collapsible-heading">Collapsible 3</p>
+        <button type="button" class="btn-close btn-close-white" aria-label="Close"></button>
+      </div>
+      <div class="collapsible-white-inner">
+        
+        <!--add content here-->
+      </div>
     </div>
   </div>
 </div>

@@ -204,6 +204,14 @@ p {
 
 }
 
+.collapsible .card-body {
+    border-top: 0rem;
+}
+
+.collapsible .card {
+    --bs-card-border-width: 0rem;
+}
+
 .card-body {
     --bs-card-bg: var(--darkerBackground);
     --bs-card-color: var(--text);
@@ -228,6 +236,18 @@ p {
 }
 .card-body-inner {
     background-color: var(--lighterBackground);
+    
+    /*border: solid 3rem var(--lighterBackground);*/
+}
+
+.collapsible-white-inner {
+    background-color: white;
+    margin: 0.5rem 5rem 3rem;
+}
+
+.collapsible-heading {
+    margin: 1rem 5rem 0rem;
+    font-weight: bold;
 }
 
 .collapser {
