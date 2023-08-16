@@ -192,7 +192,7 @@ p {
 }
 
 .minor-project-description-container {
-    margin: 10% 10% 0%;
+    margin: 2% 5% 0%;
 }
 
 .card {
@@ -566,8 +566,17 @@ img {
 
 /*Makes the trio of smaller project intros have nice margins on the left and right on large screens only*/
     .trio-smaller-project-intros {
-        width: 90%;
-        margin: auto;
+       /* width: 90%;
+        margin: auto;*/
+        display: flex;
+        justify-content: space-between;
+    }
+    #collapser1 {
+        margin-left: 10%;        
+    }
+
+    #collapser3 {
+        margin-right: 10%;
     }
 
 }
