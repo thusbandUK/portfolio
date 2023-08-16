@@ -192,7 +192,7 @@ p {
 }
 
 .minor-project-description-container {
-    margin: 2% 5% 0%;
+    margin: 4% 5% 0%;
 }
 
 .card {
@@ -623,7 +623,7 @@ img {
         margin: 0%;
     }
     .collapser {
-        margin: 3.5%;
+        margin: 3.5% 3.5% 0%;
     }
 
     /*Making the light boxes stack under the corresponding project text box for when they all stack on top of each other*/
