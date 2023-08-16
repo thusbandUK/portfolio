@@ -581,30 +581,8 @@ img {
 
 }
 
-/*Collapse experiment*/
-@media screen and (max-width: 992px) {
-
-
-/*Giving all the boxes a little padding for tablet and mobile views*/
-
-.text-start {
-    padding: 0% 5%;
-}
-
-/*Tablet and mobile stacking of main project screenshot and text box*/
-
-.project-container-inner {
-    flex-direction: column;
-
-}
-
-/*RETURN AND DELETE -RIGHT WHEN READY*/
-
-.project-image-container, .project-text-box, .project-text-box-right {
-    margin: 2% 5%;
-}
-
-/*Making the light boxes stack under the corresponding project text box for when they all stack on top of each other*/
+@media screen and (max-width: 768px) {
+    /*Making the light boxes stack under the corresponding project text box for when they all stack on top of each other*/
 
 #collapser1 {
     order: 1;
@@ -629,6 +607,77 @@ img {
 #collapseExample3 {
     order: 6;
 }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+
+    /*Position incl margins for trio of smaller projects on tablets*/
+    .trio-smaller-project-intros {
+        display: flex;
+        justify-content: center;        
+    }
+
+    .card {
+        margin: 0%;
+    }
+    .collapser {
+        margin: 3.5%;
+    }
+
+    /*Making the light boxes stack under the corresponding project text box for when they all stack on top of each other*/
+
+#collapser1 {
+    order: 1;
+}
+
+#collapser2 {
+    order: 2;
+}
+
+#collapser3 {
+    order: 5;
+}
+
+#collapseExample1 {
+    order: 3;
+}
+
+#collapseExample2 {
+    order: 4;
+}
+
+#collapseExample3 {
+    order: 6;
+}
+
+}
+
+/*Collapse experiment*/
+@media screen and (max-width: 992px) {
+
+
+/*Giving all the boxes a little padding for tablet and mobile views*/
+
+.text-start {
+    padding: 0% 5%;
+}
+
+/*Tablet and mobile stacking of main project screenshot and text box*/
+
+.project-container-inner {
+    flex-direction: column;
+
+}
+
+/*RETURN AND DELETE -RIGHT WHEN READY*/
+
+.project-image-container, .project-text-box, .project-text-box-right {
+    margin: 2% 5%;
+}
+
+
 }
 
 /*Project boxes*/

@@ -6,3 +6,5 @@ doing a hybrid of the mobile and desktop versions of the stacking
 3) scroll to the top of the just opened collapsible 
 https://stackoverflow.com/questions/35992900/bootstrap-accordion-scroll-to-top-of-active-open-accordion-on-click
 
+4) in tablet mode (stack 2 on the top line, 1 on the bottom), the trio of smaller projects will need to have the sequencing of its
+collapsers and collapsibles modified to go 124536, I think
