@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tammi Husband</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--Style sheets-->
     <link href="./index.css" rel="stylesheet">
+    <link href="./scenario-wheel.css" rel="stylesheet">
+    <link href="./horoscope.css" rel="stylesheet">
+
     <!--Google fonts links-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans&family=Quicksand&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+
     <!--Font Awesome link-->
     <script src="https://kit.fontawesome.com/4ad29889ee.js" crossorigin="anonymous"></script>
 
@@ -942,12 +947,87 @@ COMMENT OUT CODE ENDS HERE
   <div class="card card-body darkerBackground">
     <div class="card-body-inner lighterbackground rounded-3">
       <div class="collapsible-heading-button d-flex justify-content-between">
-        <p class="collapsible-heading">Collapsible 2</p>
+        <p class="collapsible-heading">Selection wheel</p>
         <button type="button" class="btn-close btn-close-white" aria-label="Close"></button>
       </div>
-      <div class="collapsible-white-inner">
+      <div id="scenario-wheel" class="collapsible-white-inner">
         
-        <!--add content here-->
+        <!--resource wheel code starts here-->
+
+        <h1>What's the situation?</h1>
+  <div class="row container-fluid">
+    <div class="col-md-3">
+      <p><button onclick="randomRotate()" aria-label="Click this button to get a randomly selected scenario then press tab for a summary">Click me to randomly select a situation</button></p> 
+    </div>  
+  
+    <div class="col-md-6">
+      <div id="container">
+        
+        <div id="arrow-container">
+          
+          <img src="images/arrow-icon.png">
+          
+        </div>       
+           
+        <div class="circle" id="big">                
+          <div class="wheel-text" id="big-text1">
+            <p>Dropped phone, broke screen</p>
+          </div>
+          <div class="wheel-text" id="big-text2">
+            <p>Dropped drink, spilled everywhere</p>
+          </div>
+          <div class="wheel-text" id="big-text3">
+            <p>Forgot reading book</p>
+          </div>
+          <div class="wheel-text" id="big-text4">
+            <p>Kicked football over a fence</p>
+          </div>        
+        </div>
+    
+        <div class="circle" id="medium">                
+          <div class="wheel-text" id="medium-text1">
+            <p>Classmates</p>
+          </div>
+          <div class="wheel-text" id="medium-text2">
+            <p>Family</p>
+          </div>
+          <div class="wheel-text" id="medium-text3">
+            <p>Best friends</p>
+          </div>
+          <div class="wheel-text" id="medium-text4">
+            <p>Passersby</p>
+          </div>        
+        </div>
+    
+        <div class="circle" id="small">
+          <div class="wheel-text" id="small-text1">
+            <p>Park</p>
+          </div>
+          <div class="wheel-text" id="small-text2">
+            <p>Cinema</p>
+          </div>
+          <div class="wheel-text" id="small-text3">
+            <p>Home</p>
+          </div>
+          <div class="wheel-text" id="small-text4">
+            <p>School</p>
+          </div>        
+        </div>    
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <details class="accessibility-summary">
+        <summary aria-label="summary of randomly selected scenario">Click for a read out of the random selection</summary>
+        <p id="final-selection">
+          Click the button to get a randomly selected scenario.
+        </p>
+      </details>
+      
+    </div>
+  </div>
+
+        <!--resource wheel code stops here-->
         
       </div>
     </div>
@@ -959,12 +1039,24 @@ COMMENT OUT CODE ENDS HERE
   <div class="card card-body darkerBackground">
     <div class="card-body-inner lighterbackground rounded-3">
       <div class="collapsible-heading-button d-flex justify-content-between">
-        <p class="collapsible-heading">Collapsible 3</p>
+        <p class="collapsible-heading">Random horoscope generator</p>
         <button type="button" class="btn-close btn-close-white" aria-label="Close"></button>
       </div>
-      <div class="collapsible-white-inner">
+      <div class="collapsible-white-inner" id="collapsible-horoscope-container">
         
-        <!--add content here-->
+        <!--horoscope generator code starts-->
+
+        <h3>Click the planets to view your horoscope</h3>
+  
+          <div id="horoscope-container">
+            <div id="horoscope-text-holder">
+              <p id="text"></p>
+            </div>
+            <img id="planets-image" src="images/cartoon planets.jpg" onClick="printText();">
+          </div>
+
+
+        <!--horoscope generator code finishes-->
       </div>
     </div>
   </div>
@@ -1003,10 +1095,17 @@ COMMENT OUT CODE ENDS HERE
 <!--Experiment ends-->
 
 
+<!--Script for scenario wheel-->
 
+<script src="./scenarioScript.js"></script>
+
+<!--Script for horoscope generator-->
+
+<script src="scrambling-text.js"></script>
+  <script src="horoscopeGeneratorScript.js"></script>
 
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-     <script  type = "text/javascript" src="./script.js">
+     <script  type = "text/javascript" src="./scrollScript.js">
 
      </script>
      <script >

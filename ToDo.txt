@@ -1,12 +1,24 @@
-1) sort out sequencing of the collapsers and collapsibles, in tablet size it's
-doing a hybrid of the mobile and desktop versions of the stacking
-
-2) You're going to have to automate scrolling up upon pressing any of the collapser buttons
-
-3) scroll to the top of the just opened collapsible 
+1) You're going to have to automate scrolling up upon pressing any of the collapser buttons, as follows: scroll to the top of the just opened collapsible 
 https://stackoverflow.com/questions/35992900/bootstrap-accordion-scroll-to-top-of-active-open-accordion-on-click
+
+2) For scenario wheel
+ a) Fix styling 
+ b) change wording
+ c) add explanatory text
+ d) ensure that screen reader function works
+
+3) fix navbar so that it reappears when you scroll up
+
+4) In mobile view (and maybe tablet too) you need to change the margin for the logo so that it lines up with everything below it
+
+5) fix the horoscope generator, because the image and the resulting horoscope text both have absolute position, the collapsible doesn't 
+know how high to be to fit the content, which sucks. Currently it renders to just less than half the screen width, but it seems easier
+said than done to then get the text automatically to render at a size that fits inside that space
+
+done
+
+1) sort out sequencing of the collapsers and collapsibles, in tablet size it's
+doing a hybrid of the mobile and desktop versions of the stacking 
 
 4) in tablet mode (stack 2 on the top line, 1 on the bottom), the trio of smaller projects will need to have the sequencing of its
 collapsers and collapsibles modified to go 124536, I think
-
-5) fix navbar so that it reappears when you scroll up

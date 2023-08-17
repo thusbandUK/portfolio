@@ -255,6 +255,10 @@ p {
     flex-direction: row;
 }
 
+#collapsible-horoscope-container {
+    height: 40vw;
+}
+
 .btn-close-white {
    /*filter: none;*/
 }

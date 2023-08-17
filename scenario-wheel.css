@@ -1,0 +1,257 @@
+/*animation container code*/
+
+/*code for responsive design*/
+
+#scenario-wheel .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#scenario-wheel .col-md-3, #scenario-wheel .col-md-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#scenario-wheel .col-md-6 {
+  padding-left: 0px;
+  padding-right: 0px;
+  
+}
+
+#scenario-wheel #container p {
+  margin: auto;
+  text-align: center;
+  font-size: 1.2rem;
+  max-width: 80%;
+}
+
+#scenario-wheel  #container {
+    width: 35vw;
+    height: 35vw;
+    position: relative;    
+    z-index: 1;
+  }
+
+  #scenario-wheel #arrow-container {
+    position: absolute;
+    height: 10%;
+    width: 7.5%;
+    left: 46.5%;
+    top: 47%;
+    z-index: 5;
+  }
+  
+  #scenario-wheel #arrow-container img {
+    max-width: 100%;
+    height: auto;
+    transform: rotate(-90deg);
+    
+  }
+  
+  /*circles code*/
+  
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+    
+  }
+  
+/*sizings for big, medium and small circles*/
+
+#big {
+  background: #76C2C1;
+  width: 90%;
+  height: 90%;
+  z-index: 2;
+  top: 5%;
+  left: 5%
+}
+
+#medium {
+  background: #F1D63E;
+  width: 60%;
+  height: 60%;
+  z-index: 3;
+  top: 20%;
+  left: 20%;
+}
+
+#small {
+  background: #B33D69;
+  width: 30%;
+  height: 30%;
+  z-index: 4;
+  top: 35%;
+  left: 35%;
+
+}
+
+
+  /*text box code*/
+
+.wheel-text {  
+  position: absolute;
+}
+
+#big .wheel-text {
+  width: 50%; 
+  height: 10%;
+}
+
+#medium .wheel-text{
+  width: 25%;
+  height: 15%;
+}
+
+#small .wheel-text {
+  width: 37.5%;
+  height: 15%;  
+}
+
+ #small .wheel-text {
+  color: white;
+}
+
+#big .wheel-text, #medium .wheel-text {
+  color: black;
+}
+
+/*big text box code*/
+
+#big-text1 {
+  
+  top: 3.33%;
+  left: 25%;  
+}
+
+#big-text2 {
+  
+  top: 45%;
+  left: 67.5%;  
+  transform: rotate(90deg);  
+}
+
+#big-text3 {  
+  top: 86.67%;
+  left: 25%;  
+  transform: rotate(180deg);  
+}
+
+#big-text4 {
+  left: -17.5%;
+  top: 45%;  
+  transform: rotate(-90deg);  
+}
+
+/*medium circle text boxes*/
+
+#medium-text1 {
+  top: 5%;
+  left: 35%;  
+}
+
+#medium-text2 {
+  top: 42.5%;
+  left: 75%;
+  transform: rotate(90deg);  
+}
+
+#medium-text3 {
+  top: 80%;
+  left: 37.5%;
+  transform: rotate(180deg);  
+}
+
+#medium-text4 {
+  top: 42.5%;  
+  transform: rotate(-90deg);  
+}
+
+/*Small circle text boxes*/
+
+#small-text1 {
+  top: 10%;
+  left: 31.25%;  
+}
+
+#small-text2 {
+  top: 42.5%;
+  left: 62.5%;
+  transform: rotate(90deg);  
+}
+
+#small-text3 {
+  top: 75%;
+  left: 31.25%;
+  transform: rotate(180deg);  
+}
+
+#small-text4 {
+  top: 42.5%;  
+  transform: rotate(-90deg);  
+}
+
+/*optimisation for different sized screens*/
+
+@media (min-width: 768px) and (max-width: 850px) {
+  /*optimisation of scenario selection wheel for mobile devices*/  
+
+  #scenario-wheel #container p {
+    font-size: 0.7rem;    
+  }
+}
+
+@media (min-width: 850px) and (max-width: 1150px) {
+  /*optimisation of scenario selection wheel for mobile devices*/ 
+
+  #scenario-wheel #container p {
+    font-size: 0.8rem;
+    
+  }
+}
+
+@media (max-width: 768px) {
+    #scenario-wheel #container {
+    width: 100vw;
+    height: 100vw;   
+  }
+}
+
+@media (min-width: 450px) and (max-width: 600px) {
+  /*optimisation of scenario selection wheel for mobile devices*/  
+
+  #scenario-wheel #container p {
+    font-size: 1rem;
+    
+  }
+}
+
+
+@media (min-width: 300px) and (max-width: 450px) {
+  /*optimisation of scenario selection wheel for mobile devices*/  
+
+  #scenario-wheel #container p {
+    font-size: 0.7rem;
+    
+  }
+}
+
+@media (min-width: 250px) and (max-width: 300px) {
+  /*optimisation of scenario selection wheel for mobile devices*/  
+
+
+  #scenario-wheel #container p {
+    font-size: 0.5rem;
+    
+  }
+}
+
+@media (max-width: 250px) {
+  /*optimisation of scenario selection wheel for mobile devices*/  
+
+  #scenario-wheel #container p {
+    font-size: 0.4rem;
+    
+  }
+}

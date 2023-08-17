@@ -1,0 +1,82 @@
+
+    img {
+      /*width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      
+      cursor: pointer;
+      position: absolute;*/
+    }
+
+    #horoscope-text-holder {
+      position: absolute;
+    }
+
+    #horoscope-container p, #collapsible-horoscope-container h3 {
+      color: black;
+      font-family: 'Roboto Mono', monospace;
+      
+    }
+
+    #horoscope-container p {
+      /*font-size: 2em;*/
+      font-size: 60%;
+    }
+
+    #collapsible-horoscope-container h3 {
+      /*font-size: 2.5em;*/
+      font-size: 20%;
+    }
+/*
+    h1 {
+      text-align: center;
+      height: fit-content;
+    }
+*/
+/*
+    h2 {
+      font-size: 1.5em;
+    }
+    */
+/*
+    body {
+      font-family: 'Roboto Mono', monospace;
+      letter-spacing: 5px;
+    }
+*/
+    #horoscope-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 80%;
+      /*margin: auto;*/
+      position: relative;
+      /*margin-top: 300px;*/
+      margin-top: 20%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    #horoscope-container img {
+      position:absolute;
+      left:0;
+      -webkit-transition: opacity 1s ease-in-out;
+      -moz-transition: opacity 1s ease-in-out;
+      -o-transition: opacity 1s ease-in-out;
+      transition: opacity 1s ease-in-out;
+
+      width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      
+      cursor: pointer;
+      
+    }
+    /*
+    #container img:hover {
+      opacity:0;
+    }
+    */
