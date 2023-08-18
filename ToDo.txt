@@ -15,6 +15,8 @@ https://stackoverflow.com/questions/35992900/bootstrap-accordion-scroll-to-top-o
 know how high to be to fit the content, which sucks. Currently it renders to just less than half the screen width, but it seems easier
 said than done to then get the text automatically to render at a size that fits inside that space
 
+6) Connect all the links
+
 done
 
 1) sort out sequencing of the collapsers and collapsibles, in tablet size it's
