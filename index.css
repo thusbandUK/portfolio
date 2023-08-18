@@ -30,6 +30,8 @@ html,body
 
 body {
     color: var(--text);
+
+    --bs-gutter-x: 1.5em !important;
 }
 
 H1, H2, H3, H4, H5, H6, a, .card .btn {
@@ -237,7 +239,12 @@ p {
 .card-body-inner {
     background-color: var(--lighterBackground);
     
-    /*border: solid 3rem var(--lighterBackground);*/
+    
+}
+
+#collapseExample3 .card-body-inner {
+    border-bottom: solid 0.4rem var(--lighterBackground);
+
 }
 
 .collapsible-white-inner {
@@ -256,9 +263,27 @@ p {
 }
 
 #collapsible-horoscope-container {
-    height: 40vw;
+   height: 50vw;
+   overflow-y: scroll;
 }
 
+.collapsible .card {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.collapsible .card-body {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+/*
+.collapsible {
+    padding-left: calc(0.5 * var(--bs-gutter-x));
+    padding-right: calc(0.5 * var(--bs-gutter-x));
+}
+*/
 .btn-close-white {
    /*filter: none;*/
 }
@@ -507,6 +532,17 @@ img {
 @media screen and (max-width: 768px) {
     #trio-of-raven-landing-pages {
         height: 150vh !important;
+    }
+
+    .collapsible-white-inner {
+        margin-left: 2.4rem;
+        margin-right: 2.4rem;
+
+    }
+
+    .collapsible-heading {
+        margin-left: 2.4rem;
+        margin-right: 2.4rem;
     }
 }
 
@@ -758,3 +794,4 @@ img {
     }
 
 }
+
