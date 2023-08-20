@@ -124,8 +124,64 @@ p {
 
 }
 
+/*Links*/
 
+/*
+--text: rgb(255, 247, 244);
+    
+    --pinkText: rgb(244,154,194);
+    --highlightText: #7DEEF5;
+    --darkerBackground: rgb(39,39,39); 
+    
+    --lighterBackground: rgb(18,61,87);
+     
+     --darkBlue: #034C77;
+*/
 
+.list-group-item {
+  --bs-list-group-color: var(--text);
+  --bs-list-group-bg: var(--darkerBackground);
+  --bs-list-group-border-color: var(--darkerBackground);
+  /*--bs-list-group-border-width: #{$list-group-border-width};
+  --bs-list-group-border-radius: #{$list-group-border-radius};*/
+  --bs-list-group-item-padding-x: 0%;
+  /*--bs-list-group-item-padding-y: #{$list-group-item-padding-y};
+  --bs-list-group-action-color: #{$list-group-action-color};*/
+  --bs-list-group-action-hover-color: var(--pinkText);
+  --bs-list-group-action-hover-bg: var(--darkerBackground);
+  --bs-list-group-action-active-color: var(--pinkText);
+  --bs-list-group-action-active-bg: var(--darkerBackground);
+  /*--bs-list-group-disabled-color: #{$list-group-disabled-color};
+  --bs-list-group-disabled-bg: #{$list-group-disabled-bg};*/
+  --bs-list-group-active-color: var(--pinkText);
+  --bs-list-group-active-bg: var(--darkerBackground);
+  /*--bs-list-group-active-border-color: #{$list-group-active-border-color};*/
+}
+
+.list-group-item {
+    
+
+}
+
+  .list-group a {
+    /*--bs-list-group-color: var(--text);
+    color: var(--brown);
+    text-decoration: underline;*/
+  }
+  
+  .list-group a:hover {
+    color: var(--pinkText);
+    text-decoration: underline;
+  }
+  
+  .list-group a:active {
+    color: var(--brown);
+    text-decoration: none;
+  }
+  
+  .list-group a:visited {
+    font-style: italic !important;
+  }
 
 
 /*Navbar*/
@@ -439,15 +495,35 @@ h1 {
     margin: 0;
     padding: 0;
 }
+
+/*Styling for get in touch section*/
+
+#get-in-touch {
+    margin-top: 10%;
+
+}
+
+footer .container-fluid {
+    margin-left: 10%;
+}
+
+footer a {
+    font-family: 'DM sans', sans-serif;
+    font-size: 1rem !important;
+}
+
+footer #navbarNav {
+    margin-right: 10.6%;
+}
+
+footer .navbar .container-fluid {
+    width: 100% !important;
+}
 /*
-img {
-    height: 99%;
-    margin: 0;
-    padding: 0;
+#email-link {
+    color: var(--text);
 }
 */
-
-
 /*imported code from landing page offcut 1 ENDS*/
 
 /*imported code from landing page offcut 2*/
@@ -637,6 +713,10 @@ img {
 
     #collapser3 {
         margin-right: 10%;
+    }
+
+    .col-lg-3 {
+        /*width: 28%;*/
     }
 
 }

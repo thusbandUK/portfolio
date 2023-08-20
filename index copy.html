@@ -28,6 +28,10 @@
     
   </head>
   <body>
+
+    
+
+
 <!--
 <div class="row trio-smaller-project-intros">
   <div class="col-lg-3 col-md-5 collapser" id="collapser1">
@@ -105,5 +109,18 @@
 
         </div>
 
+        <button id="button" type="button" class="btn btn-lg btn-danger" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+
+        <!-- Popper Production version -->
+        <!--<script src="./popper.min.js"></script>-->
+        
+        
+
+<!--Bootstrap js-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+        <script>
+          const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+          const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+        </script>
       </body>
