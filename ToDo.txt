@@ -4,6 +4,20 @@ https://stackoverflow.com/questions/35992900/bootstrap-accordion-scroll-to-top-o
 2) For scenario wheel
  a) Fix styling 
  b) change wording
+
+cakes, pigs, microwaves, penguins
+fly, clang, taste, saunter
+fast, loudly, delicious, obligingly 
+
+voles sashay enticingly 
+penguins saunter nonchalently
+
+voles sashay briskly
+penguins saunter softly
+giraffes gallop swiftly
+pigs snuffle loudly
+
+
  c) add explanatory text
  d) ensure that screen reader function works
 
@@ -16,6 +30,8 @@ know how high to be to fit the content, which sucks. Currently it renders to jus
 said than done to then get the text automatically to render at a size that fits inside that space
 
 6) Connect all the links
+
+7) check accessibility esp all the aria references esp in accordian controls of lightboxes
 
 done
 

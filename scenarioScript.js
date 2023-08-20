@@ -99,7 +99,7 @@ function resetOpacity() {
     document.getElementById(`big-text${selectedTextFinder(finalRotationDegreeBig, 'clockwise')}`).style.opacity = 1;
     document.getElementById(`medium-text${selectedTextFinder(finalRotationDegreeMedium, 'anti-clockwise')}`).style.opacity = 1;
     document.getElementById(`small-text${selectedTextFinder(finalRotationDegreeSmall, 'clockwise')}`).style.opacity = 1;
-      document.getElementById('final-selection').innerHTML = `${bigFinalText}${mediumFinalText}${smallFinalText}`;      
+      document.getElementById('final-selection').innerHTML = `${bigFinalText} ${mediumFinalText} ${smallFinalText}`;      
     }, largestDegreeToTime());
 
   }
