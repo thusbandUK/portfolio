@@ -763,6 +763,13 @@ img {
     order: 6;
 }
 
+/*Main heading for mobiles*/
+
+#main-title h1 {
+    font-size: 3rem;
+    margin-top: 20%;
+}
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -807,6 +814,13 @@ img {
     order: 6;
 }
 
+/*Main heading for tablets*/
+
+#main-title h1 {
+    font-size: 5rem;
+    margin-top: 10%;
+}
+
 }
 
 /*Collapse experiment*/
@@ -825,6 +839,15 @@ img {
     flex-direction: column;
 
 }
+
+#navbar .container-fluid {
+    margin-left: 5%;
+    padding-left: 0%;
+    padding-right: 5%;
+    width: 100% !important;
+}
+
+
 
 /*RETURN AND DELETE -RIGHT WHEN READY*/
 

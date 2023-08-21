@@ -1,16 +1,12 @@
 1) You're going to have to automate scrolling up upon pressing any of the collapser buttons, as follows: scroll to the top of the just opened collapsible 
 https://stackoverflow.com/questions/35992900/bootstrap-accordion-scroll-to-top-of-active-open-accordion-on-click
 
-2) For scenario wheel
-
-c) add explanatory text
+2) For scenario wheel and raven frames landing page(?) - add explanatory text
  
+3) Style footer nav to optimise across device types
 
-3) fix navbar so that it reappears when you scroll up - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_hide_scroll
-
-4) In mobile view (and maybe tablet too) you need to change the margin for the logo so that it lines up with everything below it
-
-
+4) neaten up the code. esp all the media queries, maybe some of it could be automatically in the html instead of in the css sheet, or
+not, maybe it doesn't matter. But it is a hot mess.
 
 6) Connect all the links
 
@@ -18,7 +14,7 @@ c) add explanatory text
 
 8) style email link
 
-9) Tammi Husband should render smaller for tablets(?) and mobiles
+
 
 done
 
@@ -49,3 +45,9 @@ d) ensure that screen reader function works
 5) fix the horoscope generator, because the image and the resulting horoscope text both have absolute position, the collapsible doesn't 
 know how high to be to fit the content, which sucks. Currently it renders to just less than half the screen width, but it seems easier
 said than done to then get the text automatically to render at a size that fits inside that space
+
+9) Tammi Husband should render smaller for tablets(?) and mobiles
+
+3) fix navbar so that it reappears when you scroll up - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_hide_scroll
+
+4) In mobile view (and maybe tablet too) you need to change the margin for the logo so that it lines up with everything below it
