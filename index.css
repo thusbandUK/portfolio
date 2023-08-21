@@ -1,10 +1,10 @@
 html,body
 {
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    /**/overflow-x: hidden; 
 }
 
 /* Variables */
@@ -185,6 +185,21 @@ p {
 
 
 /*Navbar*/
+
+header .navbar {
+    /*position: fixed;*/
+    width: 95%;
+    z-index: 10;
+}
+
+#navbar {
+    
+    position: fixed;
+    top: 0;
+    /*width: 100%;*/
+    display: block;
+    transition: top 0.3s;
+  }
 
 .navbar {
      

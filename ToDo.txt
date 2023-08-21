@@ -18,6 +18,8 @@ c) add explanatory text
 
 8) style email link
 
+9) Tammi Husband should render smaller for tablets(?) and mobiles
+
 done
 
 1) sort out sequencing of the collapsers and collapsibles, in tablet size it's
