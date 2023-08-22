@@ -267,7 +267,7 @@
                 <!--drop down button-->
                 <p class="w-100">
                   
-                  <button class="btn btn-primary w-100" onClick="scrollUp()" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                  <button class="btn btn-primary w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
                     View demo
                   </button>
                   
@@ -325,7 +325,7 @@
                 <!--Button for the drop down-->
                 <p class="w-100">
                   
-                  <button class="btn btn-primary w-100" onClick="scrollUp()" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                  <button class="btn btn-primary w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
                     View demo
                   </button>
                   
@@ -724,6 +724,37 @@
   <!--Script for automatic scrolling when collapsibles are opened-->  
   <script  type = "text/javascript" src="./scrollScript.js">
 
+     </script>
+
+     <!--Scroll to top of accordian collapsible that has just been displayed-->
+
+     <script>
+      const accordionItems = document.querySelectorAll('.accordion-collapse')
+      const acc = document.getElementById('accordionParent')
+      
+
+      accordionItems.forEach((el)=>{
+        el.addEventListener('shown.bs.collapse',(e)=>{
+          
+          //Finds the vertical position of the element within the window
+
+          var windowPositionElement = el.getBoundingClientRect().y;
+
+          //Finds the vertical position of the parent element relative to the window
+          
+          var windowPositionParent = acc.getBoundingClientRect().y;
+
+          //Combines the above values with the vertical height above the parent element
+          
+          var scrollOffset = el.parentNode.offsetTop + windowPositionElement - windowPositionParent;
+
+          window.scroll({
+              top: scrollOffset,               
+              left: 0, 
+              behavior: 'smooth'
+          })
+      })
+  })
      </script>
      <!--Now entirely commented out code that assigned margins for the middle section-->
      <script >
