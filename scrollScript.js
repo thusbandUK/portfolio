@@ -2,7 +2,7 @@
 
 const scrollUp = () => {
     console.log('function called');
-    window.scrollBy(0, 800);
+   // window.scrollBy(0, 800);
 };
 /*
 const accordionItems = document.querySelectorAll('.accordion-collapse')

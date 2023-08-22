@@ -518,6 +518,15 @@ h1 {
 
 }
 
+#get-in-touch .list-group-item {
+    display: flex;
+    
+}
+
+#get-in-touch .list-group-item-action {
+    width: fit-content;
+}
+
 footer .container-fluid {
     margin-left: 10%;
 }
@@ -619,6 +628,15 @@ img {
 /*imported code from landing page offcut 2 ENDS*/
 
 /*Media queries*/
+
+@media screen and (max-width: 450px) {
+    #get-in-touch .list-group {
+        display: flex;
+        flex-direction: column !important;
+        
+    }
+}
+
 
 @media screen and (max-width: 768px) {
     #trio-of-raven-landing-pages {

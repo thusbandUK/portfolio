@@ -14,7 +14,11 @@ not, maybe it doesn't matter. But it is a hot mess.
 
 8) style email link
 
+9) bigger bottom margin for main projects between the specific pixel range where they bump into what's below them
 
+10) privacy statement
+
+11) CV
 
 done
 
