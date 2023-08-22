@@ -638,6 +638,9 @@ img {
 }
 
 
+
+
+
 @media screen and (max-width: 768px) {
     #trio-of-raven-landing-pages {
         height: 150vh !important;
@@ -654,6 +657,8 @@ img {
         margin-right: 2.4rem;
     }
 }
+
+
 
 @media screen  and (max-device-width: 767px) and (orientation: portrait) {    
 
@@ -788,6 +793,22 @@ img {
     margin-top: 20%;
 }
 
+}
+
+@media screen and (max-width: 510px) {
+    #main-title h1 {
+        font-size: 3rem;
+        margin-top: 30%;
+    }
+    
+}
+
+@media screen and (max-width: 200px) {
+    #main-title h1 {
+        font-size: 3rem;
+        margin-top: 40%;
+    }
+    
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
