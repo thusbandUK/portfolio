@@ -1,29 +1,34 @@
-1) You're going to have to automate scrolling up upon pressing any of the collapser buttons, as follows: scroll to the top of the just opened collapsible 
-https://stackoverflow.com/questions/35992900/bootstrap-accordion-scroll-to-top-of-active-open-accordion-on-click
 
-2) For scenario wheel and raven frames landing page(?) - add explanatory text
+
+1) For scenario wheel and raven frames landing page(?) - add explanatory text
+
+
  
 3) Style footer nav to optimise across device types
 
 4) neaten up the code. esp all the media queries, maybe some of it could be automatically in the html instead of in the css sheet, or
 not, maybe it doesn't matter. But it is a hot mess.
 
-6) Connect all the links
+6) Connect all the links, incl github and linked in
 
-7) check accessibility esp all the aria references esp in accordian controls of lightboxes
+7) check accessibility esp all the aria references esp in accordian controls of lightboxes ALSO ensure screen reader can get the horoscope
 
 8) style email link
 
 9) bigger bottom margin for main projects between the specific pixel range where they bump into what's below them
 
-10) privacy statement
+10) insert privacy statement into collapsible and ensure that it scrolls to the top and reads well in all screens. Or it could just be 
+a 50% height sitch with a scroll bar, I mean who really cares about privacy?
 
-11) CV
+11) Upload CV as downloadable PDF
 
 done
 
 1) sort out sequencing of the collapsers and collapsibles, in tablet size it's
 doing a hybrid of the mobile and desktop versions of the stacking 
+
+1) You're going to have to automate scrolling up upon pressing any of the collapser buttons, as follows: scroll to the top of the just opened collapsible 
+https://stackoverflow.com/questions/35992900/bootstrap-accordion-scroll-to-top-of-active-open-accordion-on-click
 
 4) in tablet mode (stack 2 on the top line, 1 on the bottom), the trio of smaller projects will need to have the sequencing of its
 collapsers and collapsibles modified to go 124536, I think
@@ -55,3 +60,5 @@ said than done to then get the text automatically to render at a size that fits 
 3) fix navbar so that it reappears when you scroll up - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_hide_scroll
 
 4) In mobile view (and maybe tablet too) you need to change the margin for the logo so that it lines up with everything below it
+
+2) Close buttons (crosses) need to be linked up for connectibles
