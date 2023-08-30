@@ -2,11 +2,12 @@
 
 1) tammi or tom - you need to decide, you could change it later, but you'll obvs incur costs
 
+2) add credits pop up?
+
 4) neaten up the code. esp all the media queries, maybe some of it could be automatically in the html instead of in the css sheet, or
 not, maybe it doesn't matter. But it is a hot mess.
 
-10)  ensure that privacy statement scrolls to the top and reads well in all screens. Or it could just be 
-a 50% height sitch with a scroll bar, I mean who really cares about privacy?
+
 
 ditched
 
@@ -15,6 +16,9 @@ ditched
 done
 
 9) revise privacy statement text to match this site (eg no google analytics needed, cookies will differ, email different etc)
+
+10)  ensure that privacy statement scrolls to the top and reads well in all screens. Or it could just be 
+a 50% height sitch with a scroll bar, I mean who really cares about privacy?
 
 1) insert privacy statement into collapsible
 
