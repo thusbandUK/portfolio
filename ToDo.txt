@@ -1,11 +1,11 @@
 
 
-
+1) tammi or tom - you need to decide, you could change it later, but you'll obvs incur costs
 
 4) neaten up the code. esp all the media queries, maybe some of it could be automatically in the html instead of in the css sheet, or
 not, maybe it doesn't matter. But it is a hot mess.
 
-6) Connect all the links, incl github and linked in
+
 
 
 
@@ -19,6 +19,8 @@ ditched
 done
 
 2) on really narrow screens, the skills need to stack
+
+6) Connect all the links, incl github and linked in
 
 9) bigger bottom margin for main projects between the specific pixel range where they bump into what's below them
 
