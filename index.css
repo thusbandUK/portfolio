@@ -83,12 +83,15 @@ p {
 
 .project-skills-text {
     /*color: #F0A1DF;*/
-    color: black;
+    color: var(--text);
     font-size: 0.9rem;
+    text-shadow: 2px 2px var(--darkerBackground);
 }
 
 .project-contact-button {
-    color: #7DEEF5
+    /*color: #7DEEF5*/
+    color: var(--text);
+    
 }
 
 /*RETURN AND DELETE THE -RIGHT ONE WHEN READY*/
@@ -119,6 +122,9 @@ p {
 --bs-btn-border-color: var(--highlightText);
 --bs-btn-border-radius: 0;
 --bs-btn-hover-border-color: transparent;
+--bs-btn-hover-color: var(--pinkText);
+--bs-btn-active-color: var(--pinkText);
+--bs-btn-active-border-color: var(--pinkText);
 /*--#{$prefix}btn-box-shadow: #{$btn-box-shadow};
 --#{$prefix}btn-disabled-opacity: #{$btn-disabled-opacity};
 --#{$prefix}btn-focus-box-shadow: 0 0 0 #{$btn-focus-width} rgba(var(--#{$prefix}btn-focus-shadow-rgb), .5);*/
@@ -875,6 +881,8 @@ img {
 
 }
 
+/*Header nav bar*/
+
 #navbar .container-fluid {
     margin-left: 5%;
     padding-left: 0%;
@@ -882,7 +890,14 @@ img {
     width: 100% !important;
 }
 
+/*footer nav bar*/
 
+footer .navbar .container-fluid {
+    margin-left: 5%;
+    padding-left: 0%;
+    padding-right: 5%;
+    width: 100% !important;
+}
 
 /*RETURN AND DELETE -RIGHT WHEN READY*/
 
