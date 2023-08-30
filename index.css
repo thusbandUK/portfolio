@@ -639,8 +639,11 @@ img {
 @media screen and (max-width: 450px) {
     #get-in-touch .list-group {
         display: flex;
-        flex-direction: column !important;
-        
+        flex-direction: column !important;        
+    }
+
+    .project-skills-text {
+        flex-direction: column;
     }
 }
 

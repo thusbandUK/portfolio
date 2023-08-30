@@ -2,25 +2,22 @@
 
 1) For scenario wheel and raven frames landing page(?) - add explanatory text
 
-
+2) on really narrow screens, the skills need to stack
  
-3) Style footer nav to optimise across device types
+
 
 4) neaten up the code. esp all the media queries, maybe some of it could be automatically in the html instead of in the css sheet, or
 not, maybe it doesn't matter. But it is a hot mess.
 
 6) Connect all the links, incl github and linked in
 
-7) check accessibility esp all the aria references esp in accordian controls of lightboxes ALSO ensure screen reader can get the horoscope
 
-8) style email link
 
 9) bigger bottom margin for main projects between the specific pixel range where they bump into what's below them
 
 10) insert privacy statement into collapsible and ensure that it scrolls to the top and reads well in all screens. Or it could just be 
 a 50% height sitch with a scroll bar, I mean who really cares about privacy?
 
-11) Upload CV as downloadable PDF
 
 done
 
@@ -32,6 +29,8 @@ https://stackoverflow.com/questions/35992900/bootstrap-accordion-scroll-to-top-o
 
 4) in tablet mode (stack 2 on the top line, 1 on the bottom), the trio of smaller projects will need to have the sequencing of its
 collapsers and collapsibles modified to go 124536, I think
+
+3) Style footer nav to optimise across device types
 
 2) 
  a) Fix styling 
@@ -62,3 +61,9 @@ said than done to then get the text automatically to render at a size that fits 
 4) In mobile view (and maybe tablet too) you need to change the margin for the logo so that it lines up with everything below it
 
 2) Close buttons (crosses) need to be linked up for connectibles
+
+11) Upload CV as downloadable PDF
+
+7) check accessibility esp all the aria references esp in accordian controls of lightboxes ALSO ensure screen reader can get the horoscope
+
+8) style email link
