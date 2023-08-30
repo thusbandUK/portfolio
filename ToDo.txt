@@ -6,7 +6,6 @@
 not, maybe it doesn't matter. But it is a hot mess.
 
 
-
 9) revise privacy statement text to match this site (eg no google analytics needed, cookies will differ, email different etc)
 
 10)  ensure that privacy statement scrolls to the top and reads well in all screens. Or it could just be 
