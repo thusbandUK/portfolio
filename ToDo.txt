@@ -7,7 +7,7 @@ not, maybe it doesn't matter. But it is a hot mess.
 
 6) Connect all the links, incl github and linked in
 
-9) bigger bottom margin for main projects between the specific pixel range where they bump into what's below them
+
 
 10) insert privacy statement into collapsible and ensure that it scrolls to the top and reads well in all screens. Or it could just be 
 a 50% height sitch with a scroll bar, I mean who really cares about privacy?
@@ -19,6 +19,8 @@ ditched
 done
 
 2) on really narrow screens, the skills need to stack
+
+9) bigger bottom margin for main projects between the specific pixel range where they bump into what's below them
 
 1) sort out sequencing of the collapsers and collapsibles, in tablet size it's
 doing a hybrid of the mobile and desktop versions of the stacking 

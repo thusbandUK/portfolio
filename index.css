@@ -966,14 +966,7 @@ footer .navbar .container-fluid {
 
 }
 
-@media screen and (min-width: 1250px) and (max-width: 1350px) {
-    .project-text-box {
-        /*position: absolute;
-        top: 45%;
-        width: 80%;
-        margin-top: 5% !important;*/
-        
-    }
+@media screen and (min-width: 1250px) and (max-width: 1350px) {    
 
     .project-container {
         margin-bottom: 30% !important;
