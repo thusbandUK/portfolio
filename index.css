@@ -566,6 +566,10 @@ footer .navbar .container-fluid {
 .privacy-list-item {
     display: list-item !important;
 }
+
+.privacy-list-item p {
+    display: inline;
+}
 /*
 #email-link {
     color: var(--text);

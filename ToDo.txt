@@ -7,9 +7,9 @@ not, maybe it doesn't matter. But it is a hot mess.
 
 
 
+9) revise privacy statement text to match this site (eg no google analytics needed, cookies will differ, email different etc)
 
-
-10) insert privacy statement into collapsible and ensure that it scrolls to the top and reads well in all screens. Or it could just be 
+10)  ensure that privacy statement scrolls to the top and reads well in all screens. Or it could just be 
 a 50% height sitch with a scroll bar, I mean who really cares about privacy?
 
 ditched
@@ -17,6 +17,8 @@ ditched
 1) For scenario wheel and raven frames landing page(?) - add explanatory text
 
 done
+
+1) insert privacy statement into collapsible
 
 2) on really narrow screens, the skills need to stack
 
