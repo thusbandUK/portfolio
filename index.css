@@ -82,7 +82,8 @@ p {
 }
 
 .project-skills-text {
-    color: #F0A1DF;
+    /*color: #F0A1DF;*/
+    color: black;
     font-size: 0.9rem;
 }
 
