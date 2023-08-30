@@ -550,6 +550,22 @@ footer #navbarNav {
 footer .navbar .container-fluid {
     width: 100% !important;
 }
+
+#privacy-statement-container {
+    color: var(--darkerBackground);
+}
+
+.privacy-list {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+    list-style-type: square !important;
+    list-style-position: inside;
+}
+
+.privacy-list-item {
+    display: list-item !important;
+}
 /*
 #email-link {
     color: var(--text);
